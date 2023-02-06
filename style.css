@@ -95,7 +95,7 @@ nav .fas{
 	color: #fff;
 }
 .col2-row1 p{
-	font-size: 1vh;
+	font-size: 8px;
 	margin: 10px 0;
 }
 .tab-links{
@@ -325,6 +325,9 @@ nav .fas{
 			flex-basis:100%;
 			margin-bottom: 30px;
 		}
+		.col2-row1 p{
+	font-size: 15px;
+			
 		.tab-contents ul{
 			line-height:25px;
 		}
