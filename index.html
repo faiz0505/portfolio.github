@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Faiz's Portfolio website</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+	<script src="https://kit.fontawesome.com/c1dde787c5.js" crossorigin="anonymous"></script>
+	
+</head>
+<body>
+	<div id="header">
+		<div class="container">
+			<nav class="navigation">
+				<div class="logo">
+					<img src="images/logo.jpeg" alt="">
+				</div>
+				<ul id="sidemenu">
+					<li><a href="#header">Home </a></li>
+					<li><a href="#About">About</a></li>
+					<li><a href="#Services">Services</a></li>
+					<li><a href="#Portfolio">Portfolio</a></li>
+					<li><a href="#Contact">Contact</a></li>
+					<i class="fas fa-solid fa-times"     onclick="closemenu()"></i>
+		  	</ul>
+			 <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+			</nav>
+			<div class="header-text">
+				<h6>Full stack web developer</h6>
+				<h1>Hi, I'm <span>Faiz</span><br>Ali from India</h1>
+			</div>
+		</div>
+	</div>
+	<!--------About Section ---->
+	<div id="About">
+		<div class="container">
+			<div class="row">
+				<div class="row-col1">
+					<img src="images/about-img.png" alt="">
+				</div>
+				<div class="row-col2">
+					<div class="col2-row1">
+						<h1 class="sub-title">About Me</h1>
+						<p>Hi, My name is Faiz Ali and I am from kamargaon, Maharashtra, India. I completed my higher secondary education in Sulemaniya Urdu Jr. College with 90%. I am currently studying in BCA and I'm in II<sup>nd</sup> year. And also learn Full stack Web development.</p>
+					</div>
+					<div class="col2-row2">
+						<div class="tab-links">
+							<p class="active-link" onclick="opentab('Skills')">Skills</p>
+							<p onclick="opentab('Education')">Education</p>
+							<p onclick="opentab('Experience')">Experience</p>
+						</div>
+						<div class="tab-contents active-tab" id="Skills">
+							<ul>
+								<li><span>Front-end</span><br>HTML / CSS / JS</li>
+								<li><span>Back-end</span><br>PHP / PYTHON</li>
+							</ul>
+						</div>
+						<div class="tab-contents" id="Education">
+							<ul>
+								<li><span>Higher secondary</span><br>science | persantage - 90%</li>
+								<li><span>BCA</span><br>Secound year</li>
+							</ul>
+						</div>
+						<div class="tab-contents" id="Experience">
+							<ul>
+								<li><span>No experience</span><br>This website made by me</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--    This section for Services --->
+	<div id="Services">
+		<div class="container">
+			<h1 class="sub-title">My Services</h1>
+			<div class="services-list">
+				<div class="service">
+					 <i class="fa-sharp fa-solid fa-laptop"></i>
+					<h4>Front-end</h4>
+					<p> Here Front-end service is available. If you want to make a website or if you have a need of Front-end developer then you can Contact me. I have a no experience but you can see this website because this website is made by me.</p>
+					<a href="#">Learn more</a>
+				</div>
+				<div class="service">
+					<i class="fa-solid fa-code"></i>
+					<h4>Back-end</h4>
+					<p> Here Back-end service is available. If you want to make a website or if you have a need of Back-end developer then you can Contact me. I have a no experience but you can see this website because this website is made by me.</p>
+					<a href="#">Learn more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+ <div id="Portfolio">
+ 	<div class="container">
+ 		<h1 class="sub-title">My Work</h1>
+ 		<div class="work-list">
+ 			<div class="work">
+ 				<img src="images/img1.jpeg" alt="">
+ 				<div class="layer">
+ 					<h5>Portfolio website</h5>
+ 					<p>This website is a Portfolio website and I made this website.</p>
+ 					<a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+ 				</div>
+ 			</div>
+ 			<div class="work">
+ 				<img src="images/img2.jpeg" alt="">
+ 				<div class="layer">
+ 					<h5>Portfolio website</h5>
+ 					<p>This website is a Portfolio website and I made this website.</p>
+ 					<a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+ 				</div>
+ 			</div>
+ 			<div class="work">
+ 				<img src="images/img1.jpeg" alt="">
+ 				<div class="layer">
+ 					<h5>Portfolio website</h5>
+ 					<p>This website is a Portfolio website and I made this website.</p>
+ 					<a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ </div>
+ <div id="Contact">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="left">
+ 				<h1 class="sub-title">Contact Me</h1>
+ 				<p><i class="fa-solid fa-paper-plane"></i> faizali786313@gmail.com</p>
+ 				<p><i class="fa-solid fa-square-phone"></i> 8421932820</p>
+ 				<div class="social-icon">
+ 				<i class="fa-brands fa-linkedin"></i>
+ 				<i class="fa-brands fa-facebook"></i>
+ 				<i class="fa-brands fa-whatsapp"></i>
+ 				<i class="fa-brands fa-instagram"></i>
+ 				</div>
+ 				<a href="#" class="btn" download>Download CV</a>
+ 			</div>
+ 			<div class="right">
+ 				<input type="text" placeholder="Your Name">
+ 				<input type="email" placeholder="Your Email">
+ 			 <textarea rows="4" placeholder="Message"></textarea>
+ 			 <button type="submit "class="btn">Submit</button>
+ 			</div>
+ 		</div>
+ 	</div>
+ </div>
+</body>
+
+</html>
