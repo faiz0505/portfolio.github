@@ -253,7 +253,8 @@ nav .fas{
 		color: #ff004f;
 		margin-right: 5px;
 	}
-	.social-icon i{
+	.social-icon a{
+		color: #fff;
 		font-size: 20px;
 		margin-right:10px;
 	}
